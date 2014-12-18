@@ -26,22 +26,22 @@ public class Box : MonoBehaviour {
 			canCollide = false;
 		}
 			
-		if (!Game.tutorial && canCollide) { //se nao estiver no tutorial
-			if (col.gameObject.layer == 11) {//FAIL//
-				Debug.Log ("Wrong hit");
-				
-				var randomAudio = Random.Range (0, 10);
-				if (randomAudio > 8)
-					Game.audioManager.Play ("angry");
+		if (col.gameObject.layer == 11) {//FAIL//
+			Debug.Log ("Wrong hit");
+			
+			var randomAudio = Random.Range (0, 10);
+			if (randomAudio > 8)
+				Game.audioManager.Play ("angry");
 
+			if (canCollide && !Game.tutorial) { //se nao estiver no tutorial)
 				Invoke ("GetShot", 1.5f);
 				canCollide = false;
-
-				if (col.name == "tree")
-					Game.audioManager.Play ("tree");
-				if (col.name == "Floor")
-					Game.audioManager.Play ("car");
 			}
+
+			if (col.name == "tree")
+				Game.audioManager.Play ("tree");
+			if (col.name == "Floor")
+				Game.audioManager.Play ("floor");
 		}
 	}
 

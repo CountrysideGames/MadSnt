@@ -8,6 +8,7 @@ public class AudioManager : MonoBehaviour {
 	private int lastNice = 0;
 	private int lastAngry = 0;
 	private int lastScream = 0;
+	private int lastFloor = 0;
 	
 	public void Play (string audioClipName) {
 		if (audioClipName == "shot") {
@@ -32,6 +33,27 @@ public class AudioManager : MonoBehaviour {
 			lastScream = randomScream;
 			
 			audioClips[randomScream].audio.Play ();
+		}
+		else if (audioClipName == "floor"){ //FLOOR
+
+			var randomFloor = Random.Range(21, 25);
+
+			if (Game.levelNumber < 9) { //CAMPO
+				randomFloor = Random.Range(25, 28);
+			
+				while (randomFloor == lastFloor)
+					randomFloor = Random.Range(25, 28);
+			}
+			else { //CIDADE
+				randomFloor = Random.Range(27, 30);
+				
+				while (randomFloor == lastFloor)
+					randomFloor = Random.Range(27, 30);
+			}
+			
+			lastFloor = randomFloor;
+			
+			audioClips[randomFloor].audio.Play ();
 		}
 		else {
 			for (int i = 0; i < audioClips.Length; i++)

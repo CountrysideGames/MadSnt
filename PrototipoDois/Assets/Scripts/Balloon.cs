@@ -96,6 +96,7 @@ public class Balloon : MonoBehaviour {
 		if (canRelease) {
 			giftCount ++;
 			basket.animation.Play ();
+			audio.Play ();
 			Transform box = Instantiate (boxPrefab) as Transform;
 			box.parent = basket;
 
