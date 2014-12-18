@@ -1,0 +1,20 @@
+<!-- ACTIVITIES -->
+		<activity android:name="com.chartboost.sdk.CBDialogActivity"
+			android:configChanges="orientation|keyboard|keyboardHidden"
+			android:windowSoftInputMode="adjustResize"
+			android:theme="@android:style/Theme.Translucent"
+			android:launchMode="singleTop">
+		</activity>
+		<activity android:name="com.chartboost.sdk.CBImpressionActivity" android:excludeFromRecents="true" android:theme="@android:style/Theme.Translucent.NoTitleBar" android:configChanges="orientation|layoutDirection|keyboard|keyboardHidden|screenLayout|uiMode|screenSize"/>
+		<meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+
+
+<!-- META-DATA -->
+	<meta-data android:name="com.prime31.ChartboostPlugin" android:value="UnityPlayerActivityProxy"/>
+
+
+<!-- PERMISSIONS -->
+		<uses-permission  android:name="android.permission.INTERNET"/>
+		<uses-permission  android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+

@@ -1,0 +1,285 @@
+fileFormatVersion: 2
+guid: 4ccbe6005cb836d41a6ed1ebf1c854c4
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: balloon
+    21300002: box
+    21300004: house01
+    21300006: house02
+    21300008: background02
+    21300010: light
+    21300012: hole
+    21300014: cloud01
+    21300016: aim
+    21300018: cloud02
+    21300020: ropes
+    21300022: building
+    21300024: atlas-santa_10
+    21300026: santa_body
+    21300028: box_stripe02
+    21300030: box_stripe01
+    21300032: extension
+    21300034: basket
+    21300036: hatch
+    21300038: santa_head
+    21300040: santa_arm
+    21300042: box_lace
+    21300044: santa_hat01
+    21300046: santa_hat02
+    21300048: santa_hat03
+    21300050: santa_legs
+    21300052: atlas-santa_20
+    21300054: bulletShot
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: balloon
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 690
+        width: 330
+        height: 334
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: box
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 961
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: background02
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1024
+        height: 187
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hole
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 274
+        width: 196
+        height: 39
+      alignment: 9
+      pivot: {x: .0392782129, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cloud01
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 192
+        width: 374
+        height: 77
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cloud02
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 626
+        height: 82
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ropes
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 291
+        width: 136
+        height: 210
+      alignment: 2
+      pivot: {x: .5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: santa_body
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 329
+        width: 186
+        height: 170
+      alignment: 9
+      pivot: {x: .190793738, y: .114193723}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: box_stripe01
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 812
+        width: 27
+        height: 102
+      alignment: 2
+      pivot: {x: .5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: extension
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 0
+        width: 315
+        height: 81
+      alignment: 2
+      pivot: {x: .5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: basket
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 307
+        width: 132
+        height: 190
+      alignment: 9
+      pivot: {x: .508846402, y: .540879726}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hatch
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 288
+        width: 48
+        height: 12
+      alignment: 9
+      pivot: {x: .894594789, y: .8777771}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: santa_head
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 498
+        width: 107
+        height: 116
+      alignment: 9
+      pivot: {x: .543259978, y: .199619517}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: santa_arm
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 616
+        width: 150
+        height: 81
+      alignment: 9
+      pivot: {x: .135500163, y: .740478516}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: box_lace
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 921
+        width: 46
+        height: 36
+      alignment: 9
+      pivot: {x: .0311116539, y: .630555868}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: santa_hat01
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 623
+        width: 202
+        height: 53
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: santa_hat02
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 563
+        width: 202
+        height: 53
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: santa_hat03
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 503
+        width: 202
+        height: 54
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: santa_legs
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 506
+        width: 95
+        height: 174
+      alignment: 9
+      pivot: {x: .374918073, y: .916370988}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: atlas-santa_20
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 710
+        width: 185
+        height: 172
+      alignment: 9
+      pivot: {x: .907437861, y: .19175224}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: box_stripe02
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 813
+        width: 27
+        height: 102
+      alignment: 2
+      pivot: {x: .5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

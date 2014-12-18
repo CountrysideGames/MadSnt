@@ -1,0 +1,290 @@
+fileFormatVersion: 2
+guid: 99351188b2a9770488e1d08f3a87909c
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: logo
+    21300002: chapter01
+    21300004: chapter02
+    21300006: removeAds
+    21300008: sfx0
+    21300010: audioOff
+    21300012: rectangle
+    21300014: square
+    21300016: audioOn
+    21300018: extra
+    21300020: star0
+    21300022: star1
+    21300024: gift0
+    21300026: gift1
+    21300028: bullet0
+    21300030: bullet1
+    21300032: restart
+    21300034: home
+    21300036: skip
+    21300038: circle
+    21300040: rect_small
+    21300042: lock
+    21300044: pause
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: logo
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 611
+        width: 822
+        height: 414
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: chapter01
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 536
+        width: 922
+        height: 68
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: chapter02
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 464
+        width: 819
+        height: 70
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: removeAds
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 11
+        width: 404
+        height: 62
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rectangle
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 0
+        width: 595
+        height: 91
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: square
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 934
+        width: 84
+        height: 91
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: audioOff
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 757
+        width: 91
+        height: 88
+      alignment: 4
+      pivot: {x: 0, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: audioOn
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 845
+        width: 91
+        height: 88
+      alignment: 4
+      pivot: {x: 0, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: extra
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 750
+        width: 79
+        height: 88
+      alignment: 5
+      pivot: {x: 1, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: star0
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 256
+        width: 197
+        height: 190
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: star1
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 256
+        width: 197
+        height: 190
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gift0
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 108
+        width: 163
+        height: 150
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gift1
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 107
+        width: 163
+        height: 150
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bullet0
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 111
+        width: 169
+        height: 144
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bullet1
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 111
+        width: 169
+        height: 144
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: restart
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 238
+        width: 121
+        height: 143
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: home
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 101
+        width: 121
+        height: 130
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skip
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 101
+        width: 153
+        height: 117
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: circle
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 607
+        width: 141
+        height: 143
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rect_small
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 458
+        width: 181
+        height: 73
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lock
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 361
+        width: 86
+        height: 92
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pause
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 220
+        width: 110
+        height: 140
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

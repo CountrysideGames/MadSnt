@@ -1,0 +1,258 @@
+fileFormatVersion: 2
+guid: a32679721dcf8cd4398a72c991782ef0
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: building
+    21300002: house02
+    21300004: house-chimney
+    21300006: tree-big
+    21300008: moon
+    21300010: building-light
+    21300012: moon-light
+    21300014: tree-pine
+    21300016: tree-round
+    21300018: tower
+    21300020: house01
+    21300022: cock
+    21300024: antenna
+    21300026: cable01
+    21300028: cable02
+    21300030: pole1
+    21300032: pole2
+    21300034: chimLight1
+    21300036: chimLight2
+    21300038: chimLight3
+    21300040: bulletShot
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: building
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 0
+        width: 274
+        height: 613
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: house02
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 666
+        width: 383
+        height: 357
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: house-chimney
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 871
+        width: 75
+        height: 153
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tree-big
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 0
+        width: 265
+        height: 324
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: building-light
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 329
+        width: 127
+        height: 128
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tree-pine
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 0
+        width: 107
+        height: 248
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tree-round
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 0
+        width: 162
+        height: 336
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tower
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 0
+        width: 190
+        height: 623
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: house01
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 660
+        width: 365
+        height: 364
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cock
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 902
+        width: 58
+        height: 122
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: antenna
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 902
+        width: 48
+        height: 122
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cable01
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 623
+        width: 310
+        height: 38
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cable02
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 629
+        width: 311
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pole1
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 345
+        width: 48
+        height: 266
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pole2
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 345
+        width: 48
+        height: 266
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: chimLight1
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 327
+        width: 178
+        height: 107
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: chimLight2
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 436
+        width: 179
+        height: 107
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: chimLight3
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 545
+        width: 179
+        height: 107
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bulletShot
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 684
+        width: 249
+        height: 131
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
