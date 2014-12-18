@@ -13,15 +13,8 @@ public class BalloonCollider : MonoBehaviour {
 			Game.balloonController.yDirection = Game.balloonController.upForce;		
 			Game.balloon.animation.CrossFade ("balloonUp"); //animaçao do balao subindo
 
-			if (flyHigh == 0) {
-				if (Game.manager.tutorialStep[0].activeSelf) //DESATIVA O TUTORIAL DE MOVIMENTAÇAO
-					Game.manager.tutorialStep [0].SetActive (false);
-
-				Game.manager.tutorialWarning [0].SetActive (true); //MOSTRA AVISO DE QUE O PLAYER NAO DEVE ENCOSTAR NO CHAO
-
-				flyHigh += 1;
-				Invoke ("HideWarning", 3.0f);
-			}
+			flyHigh += 1;
+			Invoke ("HideWarning", 3.0f);
 		}
 
 		if (col.gameObject.layer == 11) {//FAIL//HOUSE//
@@ -50,16 +43,5 @@ public class BalloonCollider : MonoBehaviour {
 		if (col.gameObject.layer == 13) { //LEVEL END//
 			Game.manager.GameOver ();
 		}
-		
-		if (Game.tutorial && col.name == "TutorialStep2")
-			Game.manager.Tutorial03 ();
-		if (Game.tutorial && col.name == "TutorialStep3")
-			Game.manager.Tutorial04 ();
-		if (Game.tutorial && col.name == "TutorialStep4")
-			Game.manager.Tutorial05 ();
-	}
-
-	void HideWarning () {
-		Game.manager.tutorialWarning [0].SetActive (false); //MOSTRA AVISO DE QUE O PLAYER NAO DEVE ENCOSTAR NO CHAO
 	}
 }

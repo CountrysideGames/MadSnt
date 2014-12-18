@@ -47,14 +47,14 @@ public class Box : MonoBehaviour {
 
 	void OnCollisionEnter2D (Collision2D col) {
 		if (canCollide) {
-			if (!Game.tutorial) { //se nao estiver no tutorial
-				if (col.gameObject.layer == 11) {//FAIL//
-					Game.audioManager.Play ("roof");
+			if (col.gameObject.layer == 11) {//FAIL//
+				Game.audioManager.Play ("roof");
 
-					var randomAudio = Random.Range (0, 10);
-					if (randomAudio > 8)
-						Game.audioManager.Play ("angry");
-
+				var randomAudio = Random.Range (0, 10);
+				if (randomAudio > 8)
+					Game.audioManager.Play ("angry");
+			
+				if (!Game.tutorial) { //se nao estiver no tutorial
 					Invoke ("GetShot", 1.5f);
 					canCollide = false;
 				}

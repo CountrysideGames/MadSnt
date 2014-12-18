@@ -22,11 +22,6 @@ public class Game : MonoBehaviour {
 	public static UIGame uiGame; //manager da interface do jogo
 	public static GameObject balloon;
 	public static Balloon balloonController;
-
-
-	private int tutorialStepCount = 0; //step do tutorial
-	public GameObject[] tutorialStep = new GameObject[3];
-	public GameObject[] tutorialWarning = new GameObject[2];
 	
 	public GameObject shotLight;
 	public GameObject fire;
@@ -53,29 +48,6 @@ public class Game : MonoBehaviour {
 
 	}
 
-	void Start () {
-		if (tutorial) //se o tutorial estiver habilitado, chama o Step 01
-			Invoke ("Tutorial01", 1.0f);
-	}
-
-	void Tutorial01 () { //MOVIMENTAR O BALAO
-		Debug.Log ("Tutorial Step 1");
-		tutorialStepCount = 1;
-		balloonController.canMove = true; //permita que o balao possa ser movido
-		tutorialStep[0].SetActive (true); //mostra a Step 01 do tutorial
-		Invoke ("Tutorial02", 7.0f);
-	}
-
-	void Tutorial02 () { //JOGAR PRESENTES
-		Debug.Log ("Tutorial Step 2");
-		tutorialStepCount = 2;
-		balloonController.canMove = false; //permita que o balao possa ser movido
-		balloonController.canRelease = true; //permita que o balao possa ser movido
-		Game.balloonController.yDirection = 0; //mantem o balao andando reto
-		tutorialStep[0].SetActive (false); //oculta a Step 01 do tutorial	
-		tutorialStep[1].SetActive (true); //mostra a Step 02 do tutorial
-	}
-
 	void Update () {
 		if (!menu) {
 			if (fail) {
@@ -86,25 +58,6 @@ public class Game : MonoBehaviour {
 				mainCamera.audio.volume -= 0.04f * Time.deltaTime;
 			}
 		}
-	}
-
-	public void Tutorial03 () { //ACERTAR CHAMINES
-		Debug.Log ("Tutorial Step 3");
-		balloonController.canMove = true; //permita que o balao possa ser movido
-		tutorialStep[1].SetActive (false); //oculta a Step 01 do tutorial
-		tutorialStep[2].SetActive (true); //mostra a Step 02 do tutorial
-	}
-	public void Tutorial04 () { //ACERTAR CHAMINES
-		tutorialStepCount ++;
-		Debug.Log ("Tutorial Step 4");
-		tutorialStep[2].SetActive (false); //oculta a Step 01 do tutorial
-		tutorialStep[3].SetActive (true); //mostra a Step 02 do tutorial
-	}
-	public void Tutorial05 () { //ACERTAR CHAMINES
-		tutorialStepCount ++;
-		Debug.Log ("Tutorial Step 5");
-		tutorialStep[3].SetActive (false); //oculta a Step 01 do tutorial
-		tutorialStep[4].SetActive (true); //mostra a Step 02 do tutorial
 	}
 
 	public void GameOver () {

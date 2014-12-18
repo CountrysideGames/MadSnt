@@ -43,7 +43,7 @@ public class UIGame : MonoBehaviour {
 	}
 
 	public void NextLevel () { //INICIA A PROXIMA FASE
-		if (Game.completedMissions >= 2) {
+		if (Game.completedMissions >= 2 && Game.levelNumber < 16) {
 			Debug.Log ("Skipping to next level");
 			Game.tutorial = false;
 			Game.levelNumber += 1;
