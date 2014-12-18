@@ -47,7 +47,7 @@ TextureImporter:
   textureFormat: -3
   maxTextureSize: 1024
   textureSettings:
-    filterMode: -1
+    filterMode: 2
     aniso: 16
     mipBias: -1
     wrapMode: 1
@@ -96,33 +96,23 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: removeAds
-      rect:
-        serializedVersion: 2
-        x: 3
-        y: 11
-        width: 404
-        height: 62
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
     - name: rectangle
       rect:
         serializedVersion: 2
         x: 429
         y: 0
         width: 595
-        height: 91
+        height: 94
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: square
       rect:
         serializedVersion: 2
-        x: 940
-        y: 934
-        width: 84
-        height: 91
+        x: 419
+        y: 267
+        width: 177
+        height: 189
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -159,7 +149,7 @@ TextureImporter:
     - name: star0
       rect:
         serializedVersion: 2
-        x: 213
+        x: 217
         y: 256
         width: 197
         height: 190
@@ -249,7 +239,7 @@ TextureImporter:
     - name: circle
       rect:
         serializedVersion: 2
-        x: 883
+        x: 874
         y: 607
         width: 141
         height: 143
@@ -259,27 +249,27 @@ TextureImporter:
     - name: rect_small
       rect:
         serializedVersion: 2
-        x: 843
-        y: 458
-        width: 181
-        height: 73
+        x: 5
+        y: 6
+        width: 251
+        height: 99
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: lock
       rect:
         serializedVersion: 2
-        x: 813
-        y: 361
-        width: 86
-        height: 92
+        x: 606
+        y: 263
+        width: 181
+        height: 182
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: pause
       rect:
         serializedVersion: 2
-        x: 765
+        x: 792
         y: 220
         width: 110
         height: 140

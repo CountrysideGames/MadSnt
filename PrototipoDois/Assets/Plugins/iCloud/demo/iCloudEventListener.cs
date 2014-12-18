@@ -9,6 +9,7 @@ public class iCloudEventListener : MonoBehaviour
 #if UNITY_IPHONE
 	void OnEnable()
 	{
+		DontDestroyOnLoad (gameObject);
 		// Listen to all events for illustration purposes
 		iCloudManager.keyValueStoreDidChangeEvent += keyValueStoreDidChangeEvent;
 		iCloudManager.ubiquityIdentityDidChangeEvent += ubiquityIdentityDidChangeEvent;
