@@ -13,7 +13,7 @@ public class AudioManager : MonoBehaviour {
 		if (audioClipName == "shot") {
 			audioClips[Random.Range(4, 6)].audio.Play ();
 		}
-		else if (audioClipName == "nice"){
+		else if (audioClipName == "nice"){ //NICE
 			var randomNice = Random.Range(7, 17);
 
 			while (randomNice == lastNice)
@@ -23,15 +23,15 @@ public class AudioManager : MonoBehaviour {
 
 			audioClips[randomNice].audio.Play ();
 		}
-		else if (audioClipName == "scream"){
-			var randomNice = Random.Range(2, 4);
+		else if (audioClipName == "scream"){ //SCREAM
+			var randomScream = Random.Range(21, 25);
 			
-			while (randomNice == lastScream)
-				randomNice = Random.Range(21, 25);
+			while (randomScream == lastScream)
+				randomScream = Random.Range(21, 25);
 			
-			lastScream = randomNice;
+			lastScream = randomScream;
 			
-			audioClips[randomNice].audio.Play ();
+			audioClips[randomScream].audio.Play ();
 		}
 		else {
 			for (int i = 0; i < audioClips.Length; i++)

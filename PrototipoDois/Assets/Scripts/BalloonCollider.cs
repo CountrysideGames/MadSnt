@@ -42,7 +42,8 @@ public class BalloonCollider : MonoBehaviour {
 		if (col.gameObject.layer == 12) {//STAR
 			Game.starCount += 1;
 			Debug.Log ("Star caught");
-			Destroy (col.gameObject); //destroi a estrela
+			Game.audioManager.Play ("star");
+			col.gameObject.animation.Play ("caughtStar"); //destroi a estrela
 			Game.manager.CompleteMission (1); //completa a missao 1 (coletar a estrela da fase)
 		}
 

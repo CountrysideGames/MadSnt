@@ -77,13 +77,14 @@ public class Game : MonoBehaviour {
 	}
 
 	void Update () {
+		if (!menu) {
+			if (fail) {
+				mainCamera.audio.pitch -= 0.1f * Time.deltaTime;
+			}
 
-		if (fail) {
-			mainCamera.audio.pitch -= 0.1f * Time.deltaTime;
-		}
-
-		if (gameOver) {
-			mainCamera.audio.volume -= 0.04f * Time.deltaTime;
+			if (gameOver) {
+				mainCamera.audio.volume -= 0.04f * Time.deltaTime;
+			}
 		}
 	}
 
@@ -138,9 +139,10 @@ public class Game : MonoBehaviour {
 		Debug.Log ("Gifts delivered: " + giftCount + ", Stars collected " + starCount + ", shots received " + shotCount);
 	}
 	void ShowGameOver () {
-		mainCamera.audio.loop = false;
-		if (!menu)
+		if (!menu) {
+			mainCamera.audio.loop = false;
 			uiGame.panelGameOver.SetActive (true); //mostra o painel de GameOver
+		}
 	}
 
 	//COMPLETA UMA DAS 3 MISSOES:

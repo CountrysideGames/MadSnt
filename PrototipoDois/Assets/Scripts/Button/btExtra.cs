@@ -13,11 +13,6 @@ public class btExtra : MonoBehaviour {
 		Menu.mainCamera.animation.Play ("menu-right");
 	}
 
-	void Update () {
-		if (Menu.state == 2 && Input.GetKeyDown (KeyCode.Escape)) {
-			ShowMenu ();
-		}
-	}
 
 	void ShowMenu () {
 		Menu.state = 1;
