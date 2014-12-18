@@ -43,22 +43,34 @@ public class UIGame : MonoBehaviour {
 	}
 
 	public void NextLevel () { //INICIA A PROXIMA FASE
-		if (Game.completedMissions >= 2 && Game.levelNumber < 14) {
-			Debug.Log ("Skipping to next level");
-			Game.tutorial = false;
-			Game.levelNumber += 1;
-			P31Prefs.setInt ("level" + Game.levelNumber, 1);
-			Application.LoadLevel ("level" + Game.levelNumber);
+		if (Game.levelNumber < 14) {
+			if (Game.completedMissions >= 2) {
+				Debug.Log ("Skipping to next level");
+				Game.tutorial = false;
+				Game.levelNumber += 1;
+				P31Prefs.setInt ("level" + Game.levelNumber, 1);
+				Application.LoadLevel ("level" + Game.levelNumber);
+			}
+			else {
+				var buttons = new string[] { "OK" };
+	#if UNITY_ANDROID
+				EtceteraAndroid.showAlert( "Hey!", "You need 2 stars to unlock the next level", buttons[0] );
+	#endif
+	#if UNITY_IOS
+				EtceteraBinding.showAlertWithTitleMessageAndButtons( "Hey!", "You need 2 stars to unlock the next level", buttons );
+	#endif
+				Debug.Log ("Need more stars to unlock the next level");
+			}
 		}
 		else {
 			var buttons = new string[] { "OK" };
-#if UNITY_ANDROID
-			EtceteraAndroid.showAlert( "Hey!", "You need 2 stars to unlock the next level", buttons[0] );
-#endif
-#if UNITY_IOS
-			EtceteraBinding.showAlertWithTitleMessageAndButtons( "Hey!", "You need 2 stars to unlock the next level", buttons );
-#endif
-			Debug.Log ("Need more stars to unlock the next level");
+			#if UNITY_ANDROID
+			EtceteraAndroid.showAlert( "Congratulations!", "You finished the game.", buttons[0] );
+			#endif
+			#if UNITY_IOS
+			EtceteraBinding.showAlertWithTitleMessageAndButtons( "Congratulations!", "You finished the game.", buttons );
+			#endif
+			Debug.Log ("Finished the game");
 		}
 	}
 }
